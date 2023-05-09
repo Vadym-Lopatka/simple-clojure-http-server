@@ -6,7 +6,9 @@
   :dependencies [
                  [org.clojure/clojure "1.11.1"]
                  [javax.servlet/servlet-api "2.5"]
-                 [ring "1.9.0"]]
+                 [ring "1.10.0"]
+                 [metosin/reitit "0.7.0-alpha3"]
+                 [metosin/muuntaja "0.6.8"]]
   :main ^:skip-aot simple-http-server.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
